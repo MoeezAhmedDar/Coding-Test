@@ -1,45 +1,22 @@
-Do at least ONE of the following tasks: refactor is mandatory. Write tests is optional, will be good bonus to see it. 
-Please do not invest more than 2-4 hours on this.
-Upload your results to a Github repo, for easier sharing and reviewing.
+Thoughts on Code Quality
+What Makes It Amazing Code:
+Well-structured and organized code.
+1) Proper use of design patterns.
+2) Variables, functions, and classes follow consistent naming conventions.
+3) Indentation is consistent.
 
-Thank you and good luck!
+What Makes It OK Code:
+1) Code that functions correctly but might have some minor issues.
+2) Adequate commenting but room for improvement.
+3) Lacks optimization.
 
+What Makes It Terrible Code:
+1) Lack of comments or documentation.
+2) Code smells, such as duplicated code or long functions.
+3) Lacks proper error handling.
 
-
-Code to refactor
-=================
-1) app/Http/Controllers/BookingController.php
-2) app/Repository/BookingRepository.php
-
-Code to write tests (optional)
-=====================
-3) App/Helpers/TeHelper.php method willExpireAt
-4) App/Repository/UserRepository.php, method createOrUpdate
-
-
-----------------------------
-
-What I expect in your repo:
-
-X. A readme with:   Your thoughts about the code. What makes it amazing code. Or what makes it ok code. Or what makes it terrible code. How would you have done it. Thoughts on formatting, structure, logic.. The more details that you can provide about the code (what's terrible about it or/and what is good about it) the easier for us to assess your coding style, mentality etc
-
-And 
-
-Y.  Refactor it if you feel it needs refactoring. The more love you put into it. The easier for us to asses your thoughts, code principles etc
-
-
-IMPORTANT: Make two commits. First commit with original code. Second with your refactor so we can easily trace changes. 
-
-
-NB: you do not need to set up the code on local and make the web app run. It will not run as its not a complete web app. This is purely to assess you thoughts about code, formatting, logic etc
-
-
-===== So expected output is a GitHub link with either =====
-
-1. Readme described above (point X above) + refactored code 
-OR
-2. Readme described above (point X above) + refactored core + a unit test of the code that we have sent
-
-Thank you!
-
-
+How I Would Have Done It
+1) Implement proper error handling mechanisms, including validation of input data and graceful error messages.
+2) Use exception handling to catch and handle errors, providing meaningful feedback to users and logging errors for debugging.
+3) Break down large functions into smaller, more focused functions that adhere to the Single Responsibility Principle.
+4) Identify and eliminate code smells (e.g., duplicated code, long methods, tight coupling).
